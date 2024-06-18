@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "yarn", "Swift", "npm", "pip" # See documentation for possible values
+  - package-ecosystem: "yarn" # See documentation for possible values
     directory: "/main" # Location of package manifests
     schedule:
       interval: "daily"
