@@ -6,12 +6,16 @@ from dotenv import load_dotenv
 import os
 import asyncio
 
-# Load environment variables from .env file
-load_dotenv()
+# Load environment variables from env.env file
+load_dotenv(dotenv_path='env.env')
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 CHANNEL_ID = 1252701333111312445  # Replace with your designated channel ID
 
+if TOKEN is None:
+    raise ValueError("No DISCORD_BOT_TOKEN found in environment variables")
+
 intents = discord.Intents.default()
+intents.messages = True  # Enable message content intent if needed
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Function to scrape the Helldivers Companion website
@@ -20,10 +24,8 @@ def scrape_helldivers_notifications():
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Logic to extract notifications from the website
     notifications = []
 
-    # Example: Assuming the website has elements with class 'notification'
     for item in soup.find_all(class_='notification'):
         title = item.find(class_='title').get_text(strip=True)
         content = item.find(class_='content').get_text(strip=True)
