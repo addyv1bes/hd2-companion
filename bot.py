@@ -6,19 +6,18 @@ from dotenv import load_dotenv
 import os
 import asyncio
 
-# Load environment variables from env.env file
 load_dotenv(dotenv_path='env.env')
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
-CHANNEL_ID = 1252701333111312445  # Replace with your designated channel ID
+
+CHANNEL_IDS = list(map(int, os.getenv('DISCORD_CHANNEL_IDS', '1237587996837023814,1252701333111312445').split(',')))
 
 if TOKEN is None:
     raise ValueError("No DISCORD_BOT_TOKEN found in environment variables")
 
 intents = discord.Intents.default()
-intents.messages = True  # Enable message content intent if needed
+intents.messages = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-# Function to scrape the Helldivers Companion website
 def scrape_helldivers_notifications():
     url = 'https://helldiverscompanion.com'
     response = requests.get(url)
@@ -40,15 +39,17 @@ async def on_ready():
 
 @tasks.loop(minutes=10)
 async def check_notifications():
-    channel = bot.get_channel(CHANNEL_ID)
-    if channel is None:
-        print('Channel not found')
-        return
-
     notifications = scrape_helldivers_notifications()
-    for title, content in notifications:
-        embed = discord.Embed(title=title, description=content, color=discord.Color.blue())
-        await channel.send(embed=embed)
+
+    for channel_id in CHANNEL_IDS:
+        channel = bot.get_channel(channel_id)
+        if channel is None:
+            print(f'Channel with ID {channel_id} not found')
+            continue
+
+        for title, content in notifications:
+            embed = discord.Embed(title=title, description=content, color=discord.Color.blue())
+            await channel.send(embed=embed)
 
 @check_notifications.before_loop
 async def before_check_notifications():
