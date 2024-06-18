@@ -42,7 +42,7 @@ async def on_ready():
     print(f'Bot is ready. Logged in as {bot.user}')
     check_news.start()
 
-@tasks.loop(minutes=10)
+@tasks.loop(minutes=60)
 async def check_news():
     articles = scrape_helldivers_news()
     if not articles:
