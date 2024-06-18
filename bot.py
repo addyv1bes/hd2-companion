@@ -8,7 +8,7 @@ import asyncio
 
 load_dotenv(dotenv_path='env.env')
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
-CHANNEL_IDS = list(map(int, os.getenv('DISCORD_CHANNEL_IDS', '123456789012345678,987654321098765432').split(',')))
+CHANNEL_IDS = list(map(int, os.getenv('DISCORD_CHANNEL_IDS', '1237587996837023814,1252701333111312445').split(',')))
 
 if TOKEN is None:
     raise ValueError("No DISCORD_BOT_TOKEN found in environment variables")
