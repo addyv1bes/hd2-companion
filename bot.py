@@ -42,23 +42,22 @@ async def on_ready():
     print(f'Bot is ready. Logged in as {bot.user}')
     check_news.start()
 
-@tasks.loop(minutes=60)
+@tasks.loop(minutes=10)
 async def check_news():
     articles = scrape_helldivers_news()
-    if not articles:
-        print("No new articles found.")
-        return
-
+    new_articles = [article for article in articles if article[0] not in seen_articles]
+    
     for channel_id in CHANNEL_IDS:
         channel = bot.get_channel(channel_id)
         if channel is None:
             print(f'Channel with ID {channel_id} not found')
             continue
 
-        for title, content, link in articles:
-            if title in seen_articles:
-                continue
+        if not new_articles:
+            await channel.send("No new articles found.")
+            continue
 
+        for title, content, link in new_articles:
             embed = discord.Embed(title=title, description=content, url=link, color=discord.Color.blue())
             embed.add_field(name="Read more", value=f"[Click here]({link})")
             await channel.send(embed=embed)
