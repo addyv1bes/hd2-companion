@@ -1,15 +1,6 @@
 version: 2
 updates:
-<<<<<<< HEAD
-  - package-ecosystem: "gomod"
-    directory: "/main"
-    schedule:
-      interval: "daily"
   - package-ecosystem: "pip"
     directory: "/main"
-=======
-  - package-ecosystem: "cargo"
-    directory: "/"
->>>>>>> 69b30546e755c5574809e1514422d70a0cc7dc78
     schedule:
       interval: "daily"
