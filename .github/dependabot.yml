@@ -1,10 +1,10 @@
 version: 2
 updates:
   - package-ecosystem: "gomod"
-    directory: "/"
+    directory: "/main"
     schedule:
       interval: "daily"
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/main"
     schedule:
       interval: "daily"
