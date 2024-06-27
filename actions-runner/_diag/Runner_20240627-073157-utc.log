@@ -1,0 +1,245 @@
+[2024-06-27 07:31:57Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO HostContext] Well known config file 'Runner': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.runner'
+[2024-06-27 07:31:57Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2024-06-27 07:31:57Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22631.
+[2024-06-27 07:31:57Z INFO Listener] Version: 2.317.0
+[2024-06-27 07:31:57Z INFO Listener] Commit: 6dc005ee3690a0303e0d7269b6f60295d22dcfad
+[2024-06-27 07:31:57Z INFO Listener] Culture: en-US
+[2024-06-27 07:31:57Z INFO Listener] UI Culture: en-US
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO Listener] Validating directory permissions for: 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO CommandLineParser] Parse
+[2024-06-27 07:31:57Z INFO CommandLineParser] Parsing 5 args
+[2024-06-27 07:31:57Z INFO CommandLineParser] parsing argument
+[2024-06-27 07:31:57Z INFO CommandLineParser] HasArgs: False
+[2024-06-27 07:31:57Z INFO CommandLineParser] Adding Command: configure
+[2024-06-27 07:31:57Z INFO CommandLineParser] parsing argument
+[2024-06-27 07:31:57Z INFO CommandLineParser] HasArgs: True
+[2024-06-27 07:31:57Z INFO CommandLineParser] arg: url
+[2024-06-27 07:31:57Z INFO CommandLineParser] parsing argument
+[2024-06-27 07:31:57Z INFO CommandLineParser] HasArgs: True
+[2024-06-27 07:31:57Z INFO CommandLineParser] Adding option 'url': 'https://github.com/addyv1bes/hd2-companion'
+[2024-06-27 07:31:57Z INFO CommandLineParser] parsing argument
+[2024-06-27 07:31:57Z INFO CommandLineParser] HasArgs: True
+[2024-06-27 07:31:57Z INFO CommandLineParser] arg: token
+[2024-06-27 07:31:57Z INFO CommandLineParser] parsing argument
+[2024-06-27 07:31:57Z INFO CommandLineParser] HasArgs: True
+[2024-06-27 07:31:57Z INFO CommandLineParser] Adding option 'token': '***'
+[2024-06-27 07:31:57Z INFO Listener] Arguments parsed
+[2024-06-27 07:31:57Z INFO Runner] ExecuteCommand
+[2024-06-27 07:31:57Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin\Runner.Listener.dll
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO ConfigurationStore] binPath: C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO ConfigurationStore] RootFolder: C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO HostContext] Well known config file 'Runner': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.runner'
+[2024-06-27 07:31:57Z INFO ConfigurationStore] ConfigFilePath: C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.runner
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials'
+[2024-06-27 07:31:57Z INFO ConfigurationStore] CredFilePath: C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials_migrated'
+[2024-06-27 07:31:57Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials_migrated
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:57Z INFO HostContext] Well known config file 'Service': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.service'
+[2024-06-27 07:31:57Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.service
+[2024-06-27 07:31:57Z INFO CommandSettings] Flag 'help': 'False'
+[2024-06-27 07:31:57Z INFO CommandSettings] Flag 'version': 'False'
+[2024-06-27 07:31:57Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-06-27 07:31:57Z INFO CommandSettings] Flag 'check': 'False'
+[2024-06-27 07:31:57Z INFO CommandSettings] Command 'configure': 'True'
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: 
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE: |                       
+[2024-06-27 07:31:57Z INFO Terminal] WRITE: Self-hosted runner registration
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE:                         |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-06-27 07:31:57Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-06-27 07:31:57Z INFO ConfigurationManager] ConfigureAsync
+[2024-06-27 07:31:57Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2024-06-27 07:31:57Z INFO ConfigurationStore] IsConfigured()
+[2024-06-27 07:31:57Z INFO ConfigurationStore] IsConfigured: False
+[2024-06-27 07:31:57Z INFO ConfigurationManager] Is configured: False
+[2024-06-27 07:31:57Z INFO CommandSettings] Arg 'url': 'https://github.com/addyv1bes/hd2-companion'
+[2024-06-27 07:31:57Z INFO CommandSettings] Remove url from Arg dictionary.
+[2024-06-27 07:31:57Z INFO CommandSettings] Arg 'token': '***'
+[2024-06-27 07:31:57Z INFO CommandSettings] Remove token from Arg dictionary.
+[2024-06-27 07:31:58Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (D3FA:12A4A1:387F25A:659C61B:667D156D)
+[2024-06-27 07:31:58Z INFO ConfigurationManager] Using V2 flow: False
+[2024-06-27 07:31:58Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2024-06-27 07:31:58Z INFO RunnerServer] EstablishVssConnection
+[2024-06-27 07:31:58Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-06-27 07:31:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-27 07:31:58Z INFO RunnerServer] EstablishVssConnection
+[2024-06-27 07:31:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-27 07:31:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-27 07:31:58Z INFO RunnerServer] EstablishVssConnection
+[2024-06-27 07:31:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-27 07:31:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-27 07:31:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-27 07:31:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-27 07:31:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-27 07:31:58Z INFO Terminal] WRITE LINE: 
+[2024-06-27 07:31:58Z INFO ConfigurationManager] Test Connection complete.
+[2024-06-27 07:31:58Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:31:58Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:31:58Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials_rsaparams'
+[2024-06-27 07:31:58Z INFO RSAEncryptedFileKeyManager] Found existing RSA key parameters file C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials_rsaparams
+[2024-06-27 07:31:58Z INFO CommandSettings] Arg 'runnergroup': ''
+[2024-06-27 07:31:58Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-27 07:31:58Z INFO PromptManager] ReadValue
+[2024-06-27 07:31:58Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2024-06-27 07:31:58Z INFO Terminal] WRITE: [press Enter for Default] 
+[2024-06-27 07:31:58Z INFO Terminal] READ LINE
+[2024-06-27 07:31:59Z INFO Terminal] Read value: ''
+[2024-06-27 07:31:59Z INFO PromptManager] Falling back to the default: 'Default'
+[2024-06-27 07:31:59Z INFO Terminal] WRITE LINE: 
+[2024-06-27 07:31:59Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2024-06-27 07:31:59Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-06-27 07:31:59Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-06-27 07:31:59Z INFO CommandSettings] Arg 'name': ''
+[2024-06-27 07:31:59Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-27 07:31:59Z INFO PromptManager] ReadValue
+[2024-06-27 07:31:59Z INFO Terminal] WRITE: Enter the name of runner: 
+[2024-06-27 07:31:59Z INFO Terminal] WRITE: [press Enter for CORVUS] 
+[2024-06-27 07:31:59Z INFO Terminal] READ LINE
+[2024-06-27 07:32:03Z INFO Terminal] Read value: 'HD2'
+[2024-06-27 07:32:03Z INFO Terminal] WRITE LINE: 
+[2024-06-27 07:32:03Z INFO CommandSettings] Arg 'labels': ''
+[2024-06-27 07:32:03Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-27 07:32:03Z INFO PromptManager] ReadValue
+[2024-06-27 07:32:03Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2024-06-27 07:32:03Z INFO Terminal] WRITE: [press Enter to skip] 
+[2024-06-27 07:32:03Z INFO Terminal] READ LINE
+[2024-06-27 07:32:04Z INFO Terminal] Read value: ''
+[2024-06-27 07:32:04Z INFO Terminal] WRITE LINE: 
+[2024-06-27 07:32:04Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-06-27 07:32:04Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2024-06-27 07:32:04Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-06-27 07:32:04Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-06-27 07:32:04Z INFO ConfigurationStore] Saving OAuth credential @ C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials
+[2024-06-27 07:32:04Z INFO ConfigurationStore] Credentials Saved.
+[2024-06-27 07:32:04Z INFO ConfigurationStore] HasCredentials()
+[2024-06-27 07:32:04Z INFO ConfigurationStore] stored True
+[2024-06-27 07:32:04Z INFO CredentialManager] GetCredentialProvider
+[2024-06-27 07:32:04Z INFO CredentialManager] Creating type OAuth
+[2024-06-27 07:32:04Z INFO CredentialManager] Creating credential type: OAuth
+[2024-06-27 07:32:04Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials_rsaparams
+[2024-06-27 07:32:04Z INFO RunnerServer] EstablishVssConnection
+[2024-06-27 07:32:04Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-06-27 07:32:04Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-27 07:32:04Z INFO RunnerServer] EstablishVssConnection
+[2024-06-27 07:32:04Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-27 07:32:04Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-27 07:32:04Z INFO RunnerServer] EstablishVssConnection
+[2024-06-27 07:32:04Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-27 07:32:04Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-27 07:32:04Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-27 07:32:04Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-27 07:32:04Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-27 07:32:04Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials_rsaparams
+[2024-06-27 07:32:04Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.credentials_rsaparams
+[2024-06-27 07:32:05Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-06-27 07:32:05Z INFO CommandSettings] Arg 'work': ''
+[2024-06-27 07:32:05Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-27 07:32:05Z INFO PromptManager] ReadValue
+[2024-06-27 07:32:05Z INFO Terminal] WRITE: Enter name of work folder: 
+[2024-06-27 07:32:05Z INFO Terminal] WRITE: [press Enter for _work] 
+[2024-06-27 07:32:05Z INFO Terminal] READ LINE
+[2024-06-27 07:32:07Z INFO Terminal] Read value: ''
+[2024-06-27 07:32:07Z INFO PromptManager] Falling back to the default: '_work'
+[2024-06-27 07:32:07Z INFO ConfigurationStore] Saving runner settings.
+[2024-06-27 07:32:07Z INFO ConfigurationStore] Settings Saved.
+[2024-06-27 07:32:07Z INFO Terminal] WRITE LINE: 
+[2024-06-27 07:32:07Z INFO Terminal] WRITE LINE: 
+[2024-06-27 07:32:07Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2024-06-27 07:32:07Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-27 07:32:07Z INFO PromptManager] ReadValue
+[2024-06-27 07:32:07Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2024-06-27 07:32:07Z INFO Terminal] WRITE: [press Enter for N] 
+[2024-06-27 07:32:07Z INFO Terminal] READ LINE
+[2024-06-27 07:32:08Z INFO Terminal] Read value: 'y'
+[2024-06-27 07:32:08Z INFO ConfigurationManager] Configuring to run the agent as service
+[2024-06-27 07:32:08Z INFO CommandSettings] Arg 'windowslogonaccount': ''
+[2024-06-27 07:32:08Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-27 07:32:08Z INFO PromptManager] ReadValue
+[2024-06-27 07:32:08Z INFO Terminal] WRITE: User account to use for the service 
+[2024-06-27 07:32:08Z INFO Terminal] WRITE: [press Enter for NT AUTHORITY\NETWORK SERVICE] 
+[2024-06-27 07:32:08Z INFO Terminal] READ LINE
+[2024-06-27 07:32:11Z INFO Terminal] Read value: ''
+[2024-06-27 07:32:11Z INFO PromptManager] Falling back to the default: 'NT AUTHORITY\NETWORK SERVICE'
+[2024-06-27 07:32:11Z INFO WindowsServiceControlManager] LogonAccount after transforming: NT AUTHORITY\NETWORK SERVICE, user: NETWORK SERVICE, domain: NT AUTHORITY
+[2024-06-27 07:32:11Z INFO WindowsServiceControlManager] Service name 'actions.runner.addyv1bes-hd2-companion.HD2' display name 'GitHub Actions Runner (addyv1bes-hd2-companion.HD2)' will be used for service configuration.
+[2024-06-27 07:32:11Z INFO WindowsServiceControlManager] Verifying if the account has LogonAsService permission
+[2024-06-27 07:32:11Z INFO WindowsServiceControlManager] Account: NT AUTHORITY\NETWORK SERVICE already has Logon As Service Privilege.
+[2024-06-27 07:32:11Z INFO WindowsServiceControlManager] Create local group and grant folder permission to service logon account.
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:32:11Z INFO ConfigurationStore] Read setting file: 302 chars
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Work': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\_work'
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Calculated unique group name GITHUB_ActionsRunner_Gc1954
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Trying to create group GITHUB_ActionsRunner_Gc1954
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Local Group 'GITHUB_ActionsRunner_Gc1954' created
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Trying to add userName NT AUTHORITY\NETWORK SERVICE to the group GITHUB_ActionsRunner_Gc1954
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Account 'NT AUTHORITY\NETWORK SERVICE' is added to local group 'GITHUB_ActionsRunner_Gc1954'.
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\_work
+[2024-06-27 07:32:11Z INFO NativeWindowsServiceHelper] Local group 'GITHUB_ActionsRunner_Gc1954' already has full control to path 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\_work'.
+[2024-06-27 07:32:11Z INFO Terminal] WRITE LINE: Granting file permissions to 'NT AUTHORITY\NETWORK SERVICE'.
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper] Starting process:
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   File name: '"C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin\RunnerService.exe"'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Arguments: 'init'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper] Process started with process id 5648, waiting for process exit.
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-06-27 07:32:11Z INFO ProcessInvokerWrapper] Finished process 5648 with exit code 0, and elapsed time 00:00:00.0698989.
+[2024-06-27 07:32:11Z INFO Terminal] WRITE LINE: Service actions.runner.addyv1bes-hd2-companion.HD2 successfully installed
+[2024-06-27 07:32:11Z INFO Terminal] WRITE LINE: Service actions.runner.addyv1bes-hd2-companion.HD2 successfully set recovery option
+[2024-06-27 07:32:11Z INFO Terminal] WRITE LINE: Service actions.runner.addyv1bes-hd2-companion.HD2 successfully set to delayed auto start
+[2024-06-27 07:32:11Z INFO Terminal] WRITE LINE: Service actions.runner.addyv1bes-hd2-companion.HD2 successfully configured
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Bin': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\bin'
+[2024-06-27 07:32:11Z INFO HostContext] Well known directory 'Root': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner'
+[2024-06-27 07:32:11Z INFO HostContext] Well known config file 'Service': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.service'
+[2024-06-27 07:32:11Z INFO WindowsServiceControlManager] Configuration was successful, trying to start the service
+[2024-06-27 07:32:11Z INFO Terminal] WRITE LINE: Waiting for service to start...
+[2024-06-27 07:33:12Z ERR  NativeWindowsServiceHelper] System.InvalidOperationException: Cannot start the service actions.runner.addyv1bes-hd2-companion.HD2 in a timely fashion.
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+[2024-06-27 07:33:12Z ERR  Terminal] WRITE ERROR: Cannot start the service. Check the logs for more details.
+[2024-06-27 07:33:12Z ERR  Runner] System.InvalidOperationException: Cannot start the service actions.runner.addyv1bes-hd2-companion.HD2 in a timely fashion.
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+   at GitHub.Runner.Listener.Configuration.WindowsServiceControlManager.ConfigureService(RunnerSettings settings, CommandSettings command)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2024-06-27 07:33:12Z ERR  Terminal] WRITE ERROR: Cannot start the service actions.runner.addyv1bes-hd2-companion.HD2 in a timely fashion.
+[2024-06-27 07:33:12Z INFO Listener] Runner execution has finished with return code 1

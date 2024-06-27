@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "HD2",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus12.actions.githubusercontent.com/19gbyg0ONc1181BUKirzEA6wkUMBvLdavPWohN074gJHJUD2WP/",
+  "gitHubUrl": "https://github.com/addyv1bes/hd2-companion",
+  "workFolder": "_work"
+}
