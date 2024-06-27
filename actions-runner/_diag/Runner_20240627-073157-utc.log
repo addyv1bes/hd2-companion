@@ -233,3 +233,13 @@ Enter any additional labels (ex. label-1,label-2):
 [2024-06-27 07:32:11Z INFO HostContext] Well known config file 'Service': 'C:\Users\corvu\OneDrive\Documents\Kat Studios\hd2-companion\actions-runner\.service'
 [2024-06-27 07:32:11Z INFO WindowsServiceControlManager] Configuration was successful, trying to start the service
 [2024-06-27 07:32:11Z INFO Terminal] WRITE LINE: Waiting for service to start...
+[2024-06-27 07:33:12Z ERR  NativeWindowsServiceHelper] System.InvalidOperationException: Cannot start the service actions.runner.addyv1bes-hd2-companion.HD2 in a timely fashion.
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+[2024-06-27 07:33:12Z ERR  Terminal] WRITE ERROR: Cannot start the service. Check the logs for more details.
+[2024-06-27 07:33:12Z ERR  Runner] System.InvalidOperationException: Cannot start the service actions.runner.addyv1bes-hd2-companion.HD2 in a timely fashion.
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+   at GitHub.Runner.Listener.Configuration.WindowsServiceControlManager.ConfigureService(RunnerSettings settings, CommandSettings command)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2024-06-27 07:33:12Z ERR  Terminal] WRITE ERROR: Cannot start the service actions.runner.addyv1bes-hd2-companion.HD2 in a timely fashion.
+[2024-06-27 07:33:12Z INFO Listener] Runner execution has finished with return code 1
